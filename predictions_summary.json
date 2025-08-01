@@ -1,0 +1,18 @@
+{
+    "Total Assets Analyzed": 200,
+    "Most Problematic Asset Type": "Centrifugal Pump",
+    "Most Frequent Failure Mode": "No Failure",
+    "Average Predicted Days to Failure": 61.46,
+    "Asset Types Breakdown": {
+        "Centrifugal Pump": 20,
+        "Electric Motor": 20,
+        "Belt Conveyor": 20,
+        "Air Compressor": 20,
+        "Exhaust Fan": 20,
+        "Gear Pump": 20,
+        "Servo Motor": 20,
+        "Control Valve": 20,
+        "Heat Exchanger": 20,
+        "Turbine": 20
+    }
+}
