@@ -1,5 +1,106 @@
 import streamlit as st
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import json
+
+st.set_page_config(page_title="Asset Failure Dashboard", layout="wide")
+
+st.title("📊 Asset Failure Prediction Dashboard")
+
+st.markdown("""
+## 📌 Executive Summary
+This dashboard provides insights from a **hybrid ML + LLM asset failure prediction system**.
+- **Predictions** are generated using **ML (Random Forest)**.
+- **Recommendations** are generated using **LLM (DistilGPT2)**.
+- The data is **grouped by Asset Type & Age Group** for faster processing and easier interpretation.
+
+The dashboard visualizes:
+✅ Asset failure counts & types  
+✅ Most problematic asset ID/type  
+✅ Frequent asset usage & forecast  
+✅ Most common failures in the last month  
+✅ Average predicted failure timeline per asset group  
+✅ Highest usage frequency compared to peer assets  
+""")
+
+uploaded_summary = st.file_uploader("Upload grouped_summary.csv", type=["csv"])
+uploaded_detailed = st.file_uploader("Upload detailed_predictions.csv", type=["csv"])
+
+if uploaded_summary and uploaded_detailed:
+    df_summary = pd.read_csv(uploaded_summary)
+    df_detailed = pd.read_csv(uploaded_detailed)
+
+    st.subheader("📄 Grouped Predictions Overview")
+    st.dataframe(df_summary)
+
+    # KPI 1: Summarization of asset failures
+    st.subheader("1️⃣ Summarization of Asset Failures (Counts & Types)")
+    failure_counts = df_detailed["asset_type"].value_counts().reset_index()
+    failure_counts.columns = ["Asset Type", "Count"]
+
+    fig1, ax1 = plt.subplots(figsize=(8, 4))
+    sns.barplot(data=failure_counts, x="Asset Type", y="Count", palette="viridis", ax=ax1)
+    plt.title("Asset Failure Counts by Type")
+    st.pyplot(fig1)
+
+    # KPI 2: Most problematic asset type
+    st.subheader("2️⃣ Most Problematic Asset Type")
+    problematic = df_summary.sort_values(by="Predicted_Days_to_Failure").head(1)
+    st.metric("⚠️ Most Problematic Asset Type", problematic.iloc[0]["asset_type"],
+              f"{problematic.iloc[0]['Predicted_Days_to_Failure']:.1f} days to failure")
+
+    # KPI 3: Frequent asset usage & forecast
+    st.subheader("3️⃣ Frequent Asset Usage & Failure Forecast")
+    usage_forecast = df_summary.groupby("asset_type")["Predicted_Days_to_Failure"].mean().reset_index()
+    fig2, ax2 = plt.subplots(figsize=(8, 4))
+    sns.lineplot(data=usage_forecast, x="asset_type", y="Predicted_Days_to_Failure", marker="o", ax=ax2)
+    plt.title("Average Failure Forecast by Asset Type")
+    st.pyplot(fig2)
+
+    # KPI 4: Most common failures in last month
+    st.subheader("4️⃣ Most Common Failures in the Last Month")
+    if "failure_mode" in df_detailed.columns and "created_date" in df_detailed.columns:
+        df_detailed["created_date"] = pd.to_datetime(df_detailed["created_date"], errors="coerce")
+        last_month = df_detailed[df_detailed["created_date"] >= (pd.Timestamp.today() - pd.Timedelta(days=30))]
+        if not last_month.empty:
+            failure_mode_counts = last_month["failure_mode"].value_counts().reset_index()
+            failure_mode_counts.columns = ["Failure Mode", "Count"]
+            fig3, ax3 = plt.subplots(figsize=(8, 4))
+            sns.barplot(data=failure_mode_counts, x="Failure Mode", y="Count", palette="coolwarm", ax=ax3)
+            plt.title("Most Common Failures in the Last Month")
+            st.pyplot(fig3)
+        else:
+            st.info("No failures recorded in the last month.")
+    else:
+        st.info("Failure mode or created_date not found in dataset.")
+
+    # KPI 5: Average predicted failure timeline per asset group
+    st.subheader("5️⃣ Average Predicted Failure Timeline per Asset Group")
+    fig4, ax4 = plt.subplots(figsize=(8, 4))
+    sns.barplot(data=df_summary, x="asset_type", y="Predicted_Days_to_Failure", hue="age_group", palette="mako", ax=ax4)
+    plt.title("Avg Failure Timeline by Asset Type & Age Group")
+    st.pyplot(fig4)
+
+    # KPI 6: Highest usage frequency compared to peer assets
+    st.subheader("6️⃣ Highest Usage Frequency Compared to Peer Assets")
+    if "downtime_hours" in df_detailed.columns:
+        usage_freq = df_detailed.groupby("asset_type")["downtime_hours"].mean().reset_index()
+        usage_freq = usage_freq.sort_values(by="downtime_hours", ascending=False)
+        fig5, ax5 = plt.subplots(figsize=(8, 4))
+        sns.barplot(data=usage_freq, x="asset_type", y="downtime_hours", palette="rocket", ax=ax5)
+        plt.title("Avg Downtime Hours (Usage) by Asset Type")
+        st.pyplot(fig5)
+    else:
+        st.info("Downtime hours column not found.")
+
+    # Problem & Solution Table
+    st.subheader("🛠 Recommendations by Asset Group")
+    for _, row in df_summary.iterrows():
+        st.markdown(f"### 🔹 {row['asset_type']} ({row['age_group']})")
+        st.write(row["Problem_Solution"])
+import streamlit as st
+import pandas as pd
 import json
 import plotly.express as px
 import plotly.graph_objects as go
