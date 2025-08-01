@@ -1,0 +1,1402 @@
+[
+    {
+        "asset_id": "PUMP-001",
+        "asset_type": "Centrifugal Pump",
+        "failure_mode": "Bearing Failure",
+        "root_cause": "Insufficient lubrication",
+        "Days_to_Failure": 67
+    },
+    {
+        "asset_id": "MOTOR-012",
+        "asset_type": "Electric Motor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 82
+    },
+    {
+        "asset_id": "CONV-005",
+        "asset_type": "Belt Conveyor",
+        "failure_mode": "Belt Failure",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 73
+    },
+    {
+        "asset_id": "COMP-002",
+        "asset_type": "Air Compressor",
+        "failure_mode": "Valve Failure",
+        "root_cause": "Normal wear and tear",
+        "Days_to_Failure": 66
+    },
+    {
+        "asset_id": "FAN-003",
+        "asset_type": "Exhaust Fan",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 79
+    },
+    {
+        "asset_id": "PUMP-007",
+        "asset_type": "Gear Pump",
+        "failure_mode": "Gear Wear",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 57
+    },
+    {
+        "asset_id": "MOTOR-025",
+        "asset_type": "Servo Motor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 84
+    },
+    {
+        "asset_id": "VALVE-008",
+        "asset_type": "Control Valve",
+        "failure_mode": "Seal Leak",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 69
+    },
+    {
+        "asset_id": "HEAT-001",
+        "asset_type": "Heat Exchanger",
+        "failure_mode": "Gasket Failure",
+        "root_cause": "Normal wear and tear",
+        "Days_to_Failure": 45
+    },
+    {
+        "asset_id": "TURB-004",
+        "asset_type": "Turbine",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 49
+    },
+    {
+        "asset_id": "PUMP-001",
+        "asset_type": "Centrifugal Pump",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 72
+    },
+    {
+        "asset_id": "MOTOR-012",
+        "asset_type": "Electric Motor",
+        "failure_mode": "Bearing Wear",
+        "root_cause": "Insufficient lubrication",
+        "Days_to_Failure": 72
+    },
+    {
+        "asset_id": "CONV-005",
+        "asset_type": "Belt Conveyor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 87
+    },
+    {
+        "asset_id": "COMP-002",
+        "asset_type": "Air Compressor",
+        "failure_mode": "Pressure Loss",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 54
+    },
+    {
+        "asset_id": "FAN-003",
+        "asset_type": "Exhaust Fan",
+        "failure_mode": "Belt Wear",
+        "root_cause": "Normal wear and tear",
+        "Days_to_Failure": 73
+    },
+    {
+        "asset_id": "PUMP-007",
+        "asset_type": "Gear Pump",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 67
+    },
+    {
+        "asset_id": "MOTOR-025",
+        "asset_type": "Servo Motor",
+        "failure_mode": "Overheating",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 70
+    },
+    {
+        "asset_id": "VALVE-008",
+        "asset_type": "Control Valve",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 72
+    },
+    {
+        "asset_id": "HEAT-001",
+        "asset_type": "Heat Exchanger",
+        "failure_mode": "Tube Leak",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 48
+    },
+    {
+        "asset_id": "TURB-004",
+        "asset_type": "Turbine",
+        "failure_mode": "Bearing Failure",
+        "root_cause": "Insufficient lubrication",
+        "Days_to_Failure": 32
+    },
+    {
+        "asset_id": "PUMP-001",
+        "asset_type": "Centrifugal Pump",
+        "failure_mode": "Impeller Wear",
+        "root_cause": "Normal wear and tear",
+        "Days_to_Failure": 64
+    },
+    {
+        "asset_id": "MOTOR-012",
+        "asset_type": "Electric Motor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 82
+    },
+    {
+        "asset_id": "CONV-005",
+        "asset_type": "Belt Conveyor",
+        "failure_mode": "Bearing Failure",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 78
+    },
+    {
+        "asset_id": "COMP-002",
+        "asset_type": "Air Compressor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 68
+    },
+    {
+        "asset_id": "FAN-003",
+        "asset_type": "Exhaust Fan",
+        "failure_mode": "Motor Issues",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 62
+    },
+    {
+        "asset_id": "PUMP-007",
+        "asset_type": "Gear Pump",
+        "failure_mode": "Contamination",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 53
+    },
+    {
+        "asset_id": "MOTOR-025",
+        "asset_type": "Servo Motor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 84
+    },
+    {
+        "asset_id": "VALVE-008",
+        "asset_type": "Control Valve",
+        "failure_mode": "Corrosion",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 67
+    },
+    {
+        "asset_id": "HEAT-001",
+        "asset_type": "Heat Exchanger",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 53
+    },
+    {
+        "asset_id": "TURB-004",
+        "asset_type": "Turbine",
+        "failure_mode": "Vibration",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 36
+    },
+    {
+        "asset_id": "PUMP-001",
+        "asset_type": "Centrifugal Pump",
+        "failure_mode": "Cavitation",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 53
+    },
+    {
+        "asset_id": "MOTOR-012",
+        "asset_type": "Electric Motor",
+        "failure_mode": "Shaft Misalignment",
+        "root_cause": "Normal wear and tear",
+        "Days_to_Failure": 74
+    },
+    {
+        "asset_id": "CONV-005",
+        "asset_type": "Belt Conveyor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 87
+    },
+    {
+        "asset_id": "COMP-002",
+        "asset_type": "Air Compressor",
+        "failure_mode": "Oil Contamination",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 58
+    },
+    {
+        "asset_id": "FAN-003",
+        "asset_type": "Exhaust Fan",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 79
+    },
+    {
+        "asset_id": "PUMP-007",
+        "asset_type": "Gear Pump",
+        "failure_mode": "Seal Failure",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 48
+    },
+    {
+        "asset_id": "MOTOR-025",
+        "asset_type": "Servo Motor",
+        "failure_mode": "Position Error",
+        "root_cause": "Normal wear and tear",
+        "Days_to_Failure": 75
+    },
+    {
+        "asset_id": "VALVE-008",
+        "asset_type": "Control Valve",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 74
+    },
+    {
+        "asset_id": "HEAT-001",
+        "asset_type": "Heat Exchanger",
+        "failure_mode": "Fouling",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 46
+    },
+    {
+        "asset_id": "TURB-004",
+        "asset_type": "Turbine",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 47
+    },
+    {
+        "asset_id": "PUMP-001",
+        "asset_type": "Centrifugal Pump",
+        "failure_mode": "Seal Leak",
+        "root_cause": "Normal wear and tear",
+        "Days_to_Failure": 67
+    },
+    {
+        "asset_id": "MOTOR-012",
+        "asset_type": "Electric Motor",
+        "failure_mode": "Winding Failure",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 62
+    },
+    {
+        "asset_id": "CONV-005",
+        "asset_type": "Belt Conveyor",
+        "failure_mode": "Motor Overload",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 75
+    },
+    {
+        "asset_id": "COMP-002",
+        "asset_type": "Air Compressor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 69
+    },
+    {
+        "asset_id": "FAN-003",
+        "asset_type": "Exhaust Fan",
+        "failure_mode": "Blade Damage",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 71
+    },
+    {
+        "asset_id": "PUMP-007",
+        "asset_type": "Gear Pump",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 59
+    },
+    {
+        "asset_id": "MOTOR-025",
+        "asset_type": "Servo Motor",
+        "failure_mode": "Drive Issues",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 60
+    },
+    {
+        "asset_id": "VALVE-008",
+        "asset_type": "Control Valve",
+        "failure_mode": "Sticking",
+        "root_cause": "Normal wear and tear",
+        "Days_to_Failure": 63
+    },
+    {
+        "asset_id": "HEAT-001",
+        "asset_type": "Heat Exchanger",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 57
+    },
+    {
+        "asset_id": "TURB-004",
+        "asset_type": "Turbine",
+        "failure_mode": "Oil System Issues",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 41
+    },
+    {
+        "asset_id": "PUMP-001",
+        "asset_type": "Centrifugal Pump",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 72
+    },
+    {
+        "asset_id": "MOTOR-012",
+        "asset_type": "Electric Motor",
+        "failure_mode": "Bearing Wear",
+        "root_cause": "Normal wear and tear",
+        "Days_to_Failure": 74
+    },
+    {
+        "asset_id": "CONV-005",
+        "asset_type": "Belt Conveyor",
+        "failure_mode": "Roller Seizure",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 70
+    },
+    {
+        "asset_id": "COMP-002",
+        "asset_type": "Air Compressor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 68
+    },
+    {
+        "asset_id": "FAN-003",
+        "asset_type": "Exhaust Fan",
+        "failure_mode": "Motor Issues",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 68
+    },
+    {
+        "asset_id": "PUMP-007",
+        "asset_type": "Gear Pump",
+        "failure_mode": "Pressure Drop",
+        "root_cause": "Insufficient lubrication",
+        "Days_to_Failure": 51
+    },
+    {
+        "asset_id": "MOTOR-025",
+        "asset_type": "Servo Motor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 78
+    },
+    {
+        "asset_id": "VALVE-008",
+        "asset_type": "Control Valve",
+        "failure_mode": "Actuator Failure",
+        "root_cause": "Normal wear and tear",
+        "Days_to_Failure": 66
+    },
+    {
+        "asset_id": "HEAT-001",
+        "asset_type": "Heat Exchanger",
+        "failure_mode": "Corrosion",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 42
+    },
+    {
+        "asset_id": "TURB-004",
+        "asset_type": "Turbine",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 47
+    },
+    {
+        "asset_id": "PUMP-001",
+        "asset_type": "Centrifugal Pump",
+        "failure_mode": "Vibration",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 63
+    },
+    {
+        "asset_id": "MOTOR-012",
+        "asset_type": "Electric Motor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 81
+    },
+    {
+        "asset_id": "CONV-005",
+        "asset_type": "Belt Conveyor",
+        "failure_mode": "Bearing Failure",
+        "root_cause": "Normal wear and tear",
+        "Days_to_Failure": 79
+    },
+    {
+        "asset_id": "COMP-002",
+        "asset_type": "Air Compressor",
+        "failure_mode": "Valve Failure",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 50
+    },
+    {
+        "asset_id": "FAN-003",
+        "asset_type": "Exhaust Fan",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 76
+    },
+    {
+        "asset_id": "PUMP-007",
+        "asset_type": "Gear Pump",
+        "failure_mode": "Contamination",
+        "root_cause": "Progressive wear",
+        "Days_to_Failure": 47
+    },
+    {
+        "asset_id": "MOTOR-025",
+        "asset_type": "Servo Motor",
+        "failure_mode": "Overheating",
+        "root_cause": "Age-related degradation",
+        "Days_to_Failure": 73
+    },
+    {
+        "asset_id": "VALVE-008",
+        "asset_type": "Control Valve",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 73
+    },
+    {
+        "asset_id": "HEAT-001",
+        "asset_type": "Heat Exchanger",
+        "failure_mode": "Fouling",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 48
+    },
+    {
+        "asset_id": "TURB-004",
+        "asset_type": "Turbine",
+        "failure_mode": "Blade Wear",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 32
+    },
+    {
+        "asset_id": "PUMP-001",
+        "asset_type": "Centrifugal Pump",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 71
+    },
+    {
+        "asset_id": "MOTOR-012",
+        "asset_type": "Electric Motor",
+        "failure_mode": "Insulation Breakdown",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 68
+    },
+    {
+        "asset_id": "CONV-005",
+        "asset_type": "Belt Conveyor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 87
+    },
+    {
+        "asset_id": "COMP-002",
+        "asset_type": "Air Compressor",
+        "failure_mode": "Piston Wear",
+        "root_cause": "Normal wear and tear",
+        "Days_to_Failure": 62
+    },
+    {
+        "asset_id": "FAN-003",
+        "asset_type": "Exhaust Fan",
+        "failure_mode": "Vibration",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 62
+    },
+    {
+        "asset_id": "PUMP-007",
+        "asset_type": "Gear Pump",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 50
+    },
+    {
+        "asset_id": "MOTOR-025",
+        "asset_type": "Servo Motor",
+        "failure_mode": "Encoder Failure",
+        "root_cause": "Age-related degradation",
+        "Days_to_Failure": 62
+    },
+    {
+        "asset_id": "VALVE-008",
+        "asset_type": "Control Valve",
+        "failure_mode": "Calibration Drift",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 62
+    },
+    {
+        "asset_id": "HEAT-001",
+        "asset_type": "Heat Exchanger",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 55
+    },
+    {
+        "asset_id": "TURB-004",
+        "asset_type": "Turbine",
+        "failure_mode": "Oil System Issues",
+        "root_cause": "Normal wear and tear",
+        "Days_to_Failure": 42
+    },
+    {
+        "asset_id": "PUMP-001",
+        "asset_type": "Centrifugal Pump",
+        "failure_mode": "Bearing Failure",
+        "root_cause": "Insufficient lubrication",
+        "Days_to_Failure": 61
+    },
+    {
+        "asset_id": "MOTOR-012",
+        "asset_type": "Electric Motor",
+        "failure_mode": "Winding Failure",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 60
+    },
+    {
+        "asset_id": "CONV-005",
+        "asset_type": "Belt Conveyor",
+        "failure_mode": "Alignment Issues",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 78
+    },
+    {
+        "asset_id": "COMP-002",
+        "asset_type": "Air Compressor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 67
+    },
+    {
+        "asset_id": "FAN-003",
+        "asset_type": "Exhaust Fan",
+        "failure_mode": "Belt Wear",
+        "root_cause": "Normal wear and tear",
+        "Days_to_Failure": 67
+    },
+    {
+        "asset_id": "PUMP-007",
+        "asset_type": "Gear Pump",
+        "failure_mode": "Gear Wear",
+        "root_cause": "Progressive wear",
+        "Days_to_Failure": 43
+    },
+    {
+        "asset_id": "MOTOR-025",
+        "asset_type": "Servo Motor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 75
+    },
+    {
+        "asset_id": "VALVE-008",
+        "asset_type": "Control Valve",
+        "failure_mode": "Seal Leak",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 55
+    },
+    {
+        "asset_id": "HEAT-001",
+        "asset_type": "Heat Exchanger",
+        "failure_mode": "Thermal Stress",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 47
+    },
+    {
+        "asset_id": "TURB-004",
+        "asset_type": "Turbine",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 46
+    },
+    {
+        "asset_id": "PUMP-001",
+        "asset_type": "Centrifugal Pump",
+        "failure_mode": "Cavitation",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 55
+    },
+    {
+        "asset_id": "MOTOR-012",
+        "asset_type": "Electric Motor",
+        "failure_mode": "Shaft Misalignment",
+        "root_cause": "Normal wear and tear",
+        "Days_to_Failure": 68
+    },
+    {
+        "asset_id": "CONV-005",
+        "asset_type": "Belt Conveyor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 86
+    },
+    {
+        "asset_id": "COMP-002",
+        "asset_type": "Air Compressor",
+        "failure_mode": "Pressure Loss",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 62
+    },
+    {
+        "asset_id": "FAN-003",
+        "asset_type": "Exhaust Fan",
+        "failure_mode": "Motor Issues",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 60
+    },
+    {
+        "asset_id": "PUMP-007",
+        "asset_type": "Gear Pump",
+        "failure_mode": "Seal Failure",
+        "root_cause": "Progressive wear",
+        "Days_to_Failure": 40
+    },
+    {
+        "asset_id": "MOTOR-025",
+        "asset_type": "Servo Motor",
+        "failure_mode": "Position Error",
+        "root_cause": "Age-related degradation",
+        "Days_to_Failure": 62
+    },
+    {
+        "asset_id": "VALVE-008",
+        "asset_type": "Control Valve",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 70
+    },
+    {
+        "asset_id": "HEAT-001",
+        "asset_type": "Heat Exchanger",
+        "failure_mode": "Tube Leak",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 44
+    },
+    {
+        "asset_id": "TURB-004",
+        "asset_type": "Turbine",
+        "failure_mode": "Control Problems",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 30
+    },
+    {
+        "asset_id": "PUMP-001",
+        "asset_type": "Centrifugal Pump",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 70
+    },
+    {
+        "asset_id": "MOTOR-012",
+        "asset_type": "Electric Motor",
+        "failure_mode": "Bearing Wear",
+        "root_cause": "Normal wear and tear",
+        "Days_to_Failure": 73
+    },
+    {
+        "asset_id": "CONV-005",
+        "asset_type": "Belt Conveyor",
+        "failure_mode": "Roller Seizure",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 71
+    },
+    {
+        "asset_id": "COMP-002",
+        "asset_type": "Air Compressor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 67
+    },
+    {
+        "asset_id": "FAN-003",
+        "asset_type": "Exhaust Fan",
+        "failure_mode": "Motor Issues",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 66
+    },
+    {
+        "asset_id": "PUMP-007",
+        "asset_type": "Gear Pump",
+        "failure_mode": "Gear Wear",
+        "root_cause": "Progressive wear",
+        "Days_to_Failure": 33
+    },
+    {
+        "asset_id": "MOTOR-025",
+        "asset_type": "Servo Motor",
+        "failure_mode": "Drive Issues",
+        "root_cause": "Age-related degradation",
+        "Days_to_Failure": 61
+    },
+    {
+        "asset_id": "VALVE-008",
+        "asset_type": "Control Valve",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 72
+    },
+    {
+        "asset_id": "HEAT-001",
+        "asset_type": "Heat Exchanger",
+        "failure_mode": "Fouling",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 47
+    },
+    {
+        "asset_id": "TURB-004",
+        "asset_type": "Turbine",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 46
+    },
+    {
+        "asset_id": "PUMP-001",
+        "asset_type": "Centrifugal Pump",
+        "failure_mode": "Vibration",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 61
+    },
+    {
+        "asset_id": "MOTOR-012",
+        "asset_type": "Electric Motor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 80
+    },
+    {
+        "asset_id": "CONV-005",
+        "asset_type": "Belt Conveyor",
+        "failure_mode": "Bearing Failure",
+        "root_cause": "Normal wear and tear",
+        "Days_to_Failure": 79
+    },
+    {
+        "asset_id": "COMP-002",
+        "asset_type": "Air Compressor",
+        "failure_mode": "Valve Failure",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 50
+    },
+    {
+        "asset_id": "FAN-003",
+        "asset_type": "Exhaust Fan",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 75
+    },
+    {
+        "asset_id": "PUMP-007",
+        "asset_type": "Gear Pump",
+        "failure_mode": "Seal Failure",
+        "root_cause": "Progressive wear",
+        "Days_to_Failure": 29
+    },
+    {
+        "asset_id": "MOTOR-025",
+        "asset_type": "Servo Motor",
+        "failure_mode": "Overheating",
+        "root_cause": "Age-related degradation",
+        "Days_to_Failure": 46
+    },
+    {
+        "asset_id": "VALVE-008",
+        "asset_type": "Control Valve",
+        "failure_mode": "Calibration Drift",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 61
+    },
+    {
+        "asset_id": "HEAT-001",
+        "asset_type": "Heat Exchanger",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 55
+    },
+    {
+        "asset_id": "TURB-004",
+        "asset_type": "Turbine",
+        "failure_mode": "Oil System Issues",
+        "root_cause": "Normal wear and tear",
+        "Days_to_Failure": 40
+    },
+    {
+        "asset_id": "PUMP-001",
+        "asset_type": "Centrifugal Pump",
+        "failure_mode": "Bearing Failure",
+        "root_cause": "Insufficient lubrication",
+        "Days_to_Failure": 54
+    },
+    {
+        "asset_id": "MOTOR-012",
+        "asset_type": "Electric Motor",
+        "failure_mode": "Insulation Breakdown",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 67
+    },
+    {
+        "asset_id": "CONV-005",
+        "asset_type": "Belt Conveyor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 86
+    },
+    {
+        "asset_id": "COMP-002",
+        "asset_type": "Air Compressor",
+        "failure_mode": "Piston Wear",
+        "root_cause": "Normal wear and tear",
+        "Days_to_Failure": 60
+    },
+    {
+        "asset_id": "FAN-003",
+        "asset_type": "Exhaust Fan",
+        "failure_mode": "Vibration",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 61
+    },
+    {
+        "asset_id": "PUMP-007",
+        "asset_type": "Gear Pump",
+        "failure_mode": "Gear Wear",
+        "root_cause": "Progressive wear",
+        "Days_to_Failure": 27
+    },
+    {
+        "asset_id": "MOTOR-025",
+        "asset_type": "Servo Motor",
+        "failure_mode": "Encoder Failure",
+        "root_cause": "Age-related degradation",
+        "Days_to_Failure": 35
+    },
+    {
+        "asset_id": "VALVE-008",
+        "asset_type": "Control Valve",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 68
+    },
+    {
+        "asset_id": "HEAT-001",
+        "asset_type": "Heat Exchanger",
+        "failure_mode": "Thermal Stress",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 45
+    },
+    {
+        "asset_id": "TURB-004",
+        "asset_type": "Turbine",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 45
+    },
+    {
+        "asset_id": "PUMP-001",
+        "asset_type": "Centrifugal Pump",
+        "failure_mode": "Cavitation",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 59
+    },
+    {
+        "asset_id": "MOTOR-012",
+        "asset_type": "Electric Motor",
+        "failure_mode": "Winding Failure",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 60
+    },
+    {
+        "asset_id": "CONV-005",
+        "asset_type": "Belt Conveyor",
+        "failure_mode": "Alignment Issues",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 77
+    },
+    {
+        "asset_id": "COMP-002",
+        "asset_type": "Air Compressor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 65
+    },
+    {
+        "asset_id": "FAN-003",
+        "asset_type": "Exhaust Fan",
+        "failure_mode": "Belt Wear",
+        "root_cause": "Normal wear and tear",
+        "Days_to_Failure": 65
+    },
+    {
+        "asset_id": "PUMP-007",
+        "asset_type": "Gear Pump",
+        "failure_mode": "Contamination",
+        "root_cause": "Progressive wear",
+        "Days_to_Failure": 27
+    },
+    {
+        "asset_id": "MOTOR-025",
+        "asset_type": "Servo Motor",
+        "failure_mode": "Drive Issues",
+        "root_cause": "Age-related degradation",
+        "Days_to_Failure": 24
+    },
+    {
+        "asset_id": "VALVE-008",
+        "asset_type": "Control Valve",
+        "failure_mode": "Seal Leak",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 54
+    },
+    {
+        "asset_id": "HEAT-001",
+        "asset_type": "Heat Exchanger",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 55
+    },
+    {
+        "asset_id": "TURB-004",
+        "asset_type": "Turbine",
+        "failure_mode": "Oil System Issues",
+        "root_cause": "Normal wear and tear",
+        "Days_to_Failure": 39
+    },
+    {
+        "asset_id": "PUMP-001",
+        "asset_type": "Centrifugal Pump",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 69
+    },
+    {
+        "asset_id": "MOTOR-012",
+        "asset_type": "Electric Motor",
+        "failure_mode": "Shaft Misalignment",
+        "root_cause": "Normal wear and tear",
+        "Days_to_Failure": 66
+    },
+    {
+        "asset_id": "CONV-005",
+        "asset_type": "Belt Conveyor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 84
+    },
+    {
+        "asset_id": "COMP-002",
+        "asset_type": "Air Compressor",
+        "failure_mode": "Pressure Loss",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 60
+    },
+    {
+        "asset_id": "FAN-003",
+        "asset_type": "Exhaust Fan",
+        "failure_mode": "Motor Issues",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 59
+    },
+    {
+        "asset_id": "PUMP-007",
+        "asset_type": "Gear Pump",
+        "failure_mode": "Seal Failure",
+        "root_cause": "Progressive wear",
+        "Days_to_Failure": 49
+    },
+    {
+        "asset_id": "MOTOR-025",
+        "asset_type": "Servo Motor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 92
+    },
+    {
+        "asset_id": "VALVE-008",
+        "asset_type": "Control Valve",
+        "failure_mode": "Corrosion",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 59
+    },
+    {
+        "asset_id": "HEAT-001",
+        "asset_type": "Heat Exchanger",
+        "failure_mode": "Tube Leak",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 40
+    },
+    {
+        "asset_id": "TURB-004",
+        "asset_type": "Turbine",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 44
+    },
+    {
+        "asset_id": "PUMP-001",
+        "asset_type": "Centrifugal Pump",
+        "failure_mode": "Bearing Wear",
+        "root_cause": "Normal wear and tear",
+        "Days_to_Failure": 65
+    },
+    {
+        "asset_id": "MOTOR-012",
+        "asset_type": "Electric Motor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 79
+    },
+    {
+        "asset_id": "CONV-005",
+        "asset_type": "Belt Conveyor",
+        "failure_mode": "Roller Seizure",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 70
+    },
+    {
+        "asset_id": "COMP-002",
+        "asset_type": "Air Compressor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 65
+    },
+    {
+        "asset_id": "FAN-003",
+        "asset_type": "Exhaust Fan",
+        "failure_mode": "Motor Issues",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 65
+    },
+    {
+        "asset_id": "PUMP-007",
+        "asset_type": "Gear Pump",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 93
+    },
+    {
+        "asset_id": "MOTOR-025",
+        "asset_type": "Servo Motor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 94
+    },
+    {
+        "asset_id": "VALVE-008",
+        "asset_type": "Control Valve",
+        "failure_mode": "Sticking",
+        "root_cause": "Normal wear and tear",
+        "Days_to_Failure": 63
+    },
+    {
+        "asset_id": "HEAT-001",
+        "asset_type": "Heat Exchanger",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 52
+    },
+    {
+        "asset_id": "TURB-004",
+        "asset_type": "Turbine",
+        "failure_mode": "Vibration",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 35
+    },
+    {
+        "asset_id": "PUMP-001",
+        "asset_type": "Centrifugal Pump",
+        "failure_mode": "Bearing Failure",
+        "root_cause": "Insufficient lubrication",
+        "Days_to_Failure": 53
+    },
+    {
+        "asset_id": "MOTOR-012",
+        "asset_type": "Electric Motor",
+        "failure_mode": "Overheating",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 70
+    },
+    {
+        "asset_id": "CONV-005",
+        "asset_type": "Belt Conveyor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 84
+    },
+    {
+        "asset_id": "COMP-002",
+        "asset_type": "Air Compressor",
+        "failure_mode": "Oil Contamination",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 55
+    },
+    {
+        "asset_id": "FAN-003",
+        "asset_type": "Exhaust Fan",
+        "failure_mode": "Vibration",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 59
+    },
+    {
+        "asset_id": "PUMP-007",
+        "asset_type": "Gear Pump",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 93
+    },
+    {
+        "asset_id": "MOTOR-025",
+        "asset_type": "Servo Motor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 94
+    },
+    {
+        "asset_id": "VALVE-008",
+        "asset_type": "Control Valve",
+        "failure_mode": "Seal Leak",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 52
+    },
+    {
+        "asset_id": "HEAT-001",
+        "asset_type": "Heat Exchanger",
+        "failure_mode": "Fouling",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 42
+    },
+    {
+        "asset_id": "TURB-004",
+        "asset_type": "Turbine",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 40
+    },
+    {
+        "asset_id": "PUMP-001",
+        "asset_type": "Centrifugal Pump",
+        "failure_mode": "Impeller Wear",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 57
+    },
+    {
+        "asset_id": "MOTOR-012",
+        "asset_type": "Electric Motor",
+        "failure_mode": "Winding Failure",
+        "root_cause": "Age-related degradation",
+        "Days_to_Failure": 58
+    },
+    {
+        "asset_id": "CONV-005",
+        "asset_type": "Belt Conveyor",
+        "failure_mode": "Bearing Failure",
+        "root_cause": "Normal wear and tear",
+        "Days_to_Failure": 76
+    },
+    {
+        "asset_id": "COMP-002",
+        "asset_type": "Air Compressor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 61
+    },
+    {
+        "asset_id": "FAN-003",
+        "asset_type": "Exhaust Fan",
+        "failure_mode": "Belt Wear",
+        "root_cause": "Progressive wear",
+        "Days_to_Failure": 61
+    },
+    {
+        "asset_id": "PUMP-007",
+        "asset_type": "Gear Pump",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 92
+    },
+    {
+        "asset_id": "MOTOR-025",
+        "asset_type": "Servo Motor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 94
+    },
+    {
+        "asset_id": "VALVE-008",
+        "asset_type": "Control Valve",
+        "failure_mode": "Corrosion",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 58
+    },
+    {
+        "asset_id": "HEAT-001",
+        "asset_type": "Heat Exchanger",
+        "failure_mode": "Tube Leak",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 36
+    },
+    {
+        "asset_id": "TURB-004",
+        "asset_type": "Turbine",
+        "failure_mode": "Oil System Issues",
+        "root_cause": "Progressive wear",
+        "Days_to_Failure": 31
+    },
+    {
+        "asset_id": "PUMP-001",
+        "asset_type": "Centrifugal Pump",
+        "failure_mode": "Cavitation",
+        "root_cause": "Operating stress",
+        "Days_to_Failure": 48
+    },
+    {
+        "asset_id": "MOTOR-012",
+        "asset_type": "Electric Motor",
+        "failure_mode": "Insulation Breakdown",
+        "root_cause": "Age-related degradation",
+        "Days_to_Failure": 60
+    },
+    {
+        "asset_id": "CONV-005",
+        "asset_type": "Belt Conveyor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 83
+    },
+    {
+        "asset_id": "COMP-002",
+        "asset_type": "Air Compressor",
+        "failure_mode": "Valve Failure",
+        "root_cause": "Progressive wear",
+        "Days_to_Failure": 53
+    },
+    {
+        "asset_id": "FAN-003",
+        "asset_type": "Exhaust Fan",
+        "failure_mode": "Motor Issues",
+        "root_cause": "Progressive wear",
+        "Days_to_Failure": 42
+    },
+    {
+        "asset_id": "PUMP-007",
+        "asset_type": "Gear Pump",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 92
+    },
+    {
+        "asset_id": "MOTOR-025",
+        "asset_type": "Servo Motor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 94
+    },
+    {
+        "asset_id": "VALVE-008",
+        "asset_type": "Control Valve",
+        "failure_mode": "Seal Leak",
+        "root_cause": "Progressive wear",
+        "Days_to_Failure": 48
+    },
+    {
+        "asset_id": "HEAT-001",
+        "asset_type": "Heat Exchanger",
+        "failure_mode": "Thermal Stress",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 41
+    },
+    {
+        "asset_id": "TURB-004",
+        "asset_type": "Turbine",
+        "failure_mode": "Bearing Failure",
+        "root_cause": "Progressive wear",
+        "Days_to_Failure": 17
+    },
+    {
+        "asset_id": "PUMP-001",
+        "asset_type": "Centrifugal Pump",
+        "failure_mode": "Bearing Failure",
+        "root_cause": "Progressive wear",
+        "Days_to_Failure": 52
+    },
+    {
+        "asset_id": "MOTOR-012",
+        "asset_type": "Electric Motor",
+        "failure_mode": "Winding Failure",
+        "root_cause": "Age-related degradation",
+        "Days_to_Failure": 32
+    },
+    {
+        "asset_id": "CONV-005",
+        "asset_type": "Belt Conveyor",
+        "failure_mode": "Alignment Issues",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 75
+    },
+    {
+        "asset_id": "COMP-002",
+        "asset_type": "Air Compressor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 59
+    },
+    {
+        "asset_id": "FAN-003",
+        "asset_type": "Exhaust Fan",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 92
+    },
+    {
+        "asset_id": "PUMP-007",
+        "asset_type": "Gear Pump",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 93
+    },
+    {
+        "asset_id": "MOTOR-025",
+        "asset_type": "Servo Motor",
+        "failure_mode": "No Failure",
+        "root_cause": "Scheduled maintenance",
+        "Days_to_Failure": 94
+    },
+    {
+        "asset_id": "VALVE-008",
+        "asset_type": "Control Valve",
+        "failure_mode": "Calibration Drift",
+        "root_cause": "Progressive wear",
+        "Days_to_Failure": 53
+    },
+    {
+        "asset_id": "HEAT-001",
+        "asset_type": "Heat Exchanger",
+        "failure_mode": "Corrosion",
+        "root_cause": "Environmental conditions",
+        "Days_to_Failure": 29
+    },
+    {
+        "asset_id": "TURB-004",
+        "asset_type": "Turbine",
+        "failure_mode": "Vibration",
+        "root_cause": "Progressive wear",
+        "Days_to_Failure": 26
+    }
+]
